@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0 px;
+    box-sizing: border-box;
 
 }
 
@@ -24,4 +25,21 @@ h1{
     border-radius: 4px;
     padding: 20px;
     width: 150px;
+}
+
+div.gallery{
+    border:1px solid #ccc;
+}
+
+div.gallery :hover{
+    border: 1px solid #777;
+}
+div.gallery img{
+    width: 100%;
+    height:auto;
+}
+.responsive{
+    padding:  0 6px;
+    float: left;
+    width: 24.99999%;
 }
