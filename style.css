@@ -25,34 +25,6 @@ h1{
     width: 150px;
 }
 
-/* .column{
-    
-    display: flex;
-    
-}
-.row{
-    flex: 33.33%;
-    padding: 5px;
-
-}
-
-div.gallery :hover{
-    border: 1px solid #777;
-}
-div.gallery img{
-    width: 100%;
-    height:auto;
-}
-.wholegallery{
-    padding:  0 6px;
-    float: left;
-    width: 25%;
-}
-div.desc{
-    padding: 15px;
-    text-align: center;
-    color: #fff;
-} */
 
 div.gallery{
     margin: 30px;
@@ -73,4 +45,23 @@ div.gallery img{
 div.desc {
     padding: 15px;
     text-align: center;
+  }
+
+  .search_box{
+    text-align: center;
+    
+  }
+
+  /* .search_box input {
+    background-color: #16314F;
+    color: #fff;
+  } */
+
+  input[type = text]{
+    background-color: #16314F;
+    color: #fff;
+    width: 200px;
+    height:50px;
+    padding: 12px , 2px;
+   
   }
